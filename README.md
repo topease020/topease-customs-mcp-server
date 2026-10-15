@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/pypi/pyversions/topease-mcp" alt="Python">
 </a>
 
-全球海关贸易数据 MCP 服务 — 提供 238 个国家/地区的进出口贸易数据查询能力。
+全球海关贸易数据 MCP 服务 — 覆盖 238 个国家/地区，一站式查询进出口贸易明细与采购商、供应商企业画像分析。
 
 ## 简介
 
@@ -173,6 +173,8 @@ uv pip install -e .
 > 1. `company_name`、`product_keyword`、`hs_code`、`country` 至少填写一个
 > 2. `page_size` 最大值为 20，超出会自动截断
 > 3. `trade_type` 映射：`import`→1, `export`→0, `all`→2
+>
+> <br />
 
 ## 返回字段说明
 
